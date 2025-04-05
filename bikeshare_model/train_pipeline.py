@@ -12,6 +12,7 @@ from bikeshare_model.config.core import config
 from bikeshare_model.pipeline import bikeshare_pipe
 from bikeshare_model.processing.data_manager import load_dataset, save_pipeline
 
+
 def run_training() -> None:
     
     """
